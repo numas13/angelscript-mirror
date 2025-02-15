@@ -362,6 +362,8 @@
 // On some platforms objects with primitive members are split over different
 // register types when passed by value to functions.
 
+// RETURN_VALUE_MAX_SIZE
+// Specifies the maximum size in dwords returned in registers.
 
 
 
