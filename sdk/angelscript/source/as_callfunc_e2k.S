@@ -116,7 +116,6 @@ CallFunctionE2K:
         stw,2       %b[14], %r3, 0
         addd,3      %r5, 4, %r5
         ldw,5,sm    %r5, 0, %b[0]
-        nop 2
         ct          %ctpr1 ? #NOT_LOOP_END
     }
     {
